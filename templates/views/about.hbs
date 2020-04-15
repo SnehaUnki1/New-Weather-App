@@ -1,17 +1,3 @@
-{{!-- <!DOCTYPE html>
-    <html>
-        <head>
-            <link rel="stylesheet" href="./css/style.css">
-            <body>
-               {{!-- <h1>{{title}}</h1> --}}
-               {{!-- {{>header}}
-                <img src="./img/Sneha_photo.JPG">
-                {{!-- <p>Created by:{{name}}</p> --}}
-                {{!-- {{>footers}}
-            </body>
-        </head>
-    </html> --}} 
-
 <!DOCTYPE html>
 
 <html>
@@ -25,9 +11,22 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <img class="landscape" src="/img/Sneha_photo.JPG">
+        <div class="row">
+
+            <div class="column">
+                <img class="landscape" src="/img/Sneha.JPG">
+            </div>
+            <div class="column">
+                <h2>Sneha Ravi</h2>
+                <p>
+                    <h3>Full Stack Web Developer</h3>
+                </p>
+                <p>Web development is my passion, I have diverse set of skills like, Nodejs, AngularJS Java, HTML, CSS,
+                    MongoDB, Front end and Back end Developement. </p>
+            </div>
+        </div>
     </div>
-    
+
     {{>footer}}
 </body>
 
