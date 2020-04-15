@@ -9,11 +9,14 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const publicDirectoryPath = path.join(__dirname, '../public')
+const viewspath = path.join(__dirname,'../templates/views')
 const partialspath = path.join(__dirname,'../templates/partials')
 
 //Set up handler engine and viewa location.
 // by default express look for views folder.
 app.set('view engine', 'hbs')
+app.set('views',viewspath)
+
 
 //Setup static directory to serve apllication
 app.use(express.static(publicDirectoryPath))
