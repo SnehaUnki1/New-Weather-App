@@ -10,10 +10,16 @@
 
 <body>
     <div class="main-content">
-        {{>header}}
-        <p>{{help}}</p>
+        <form action="mailto:snehaunki@gmail.com" method="post" enctype="text/plain">
+
+            {{>header}}
+            <h3>{{help}}</h3>
+            <p>Please be free to contact me with any kind of issue related to this application.</p>
+            <p>Please do send mail by clicking on the below button.</p>
+            <button alt="Submit" id="email"> Email Us</button>
+
+        </form>
     </div>
-    
     {{>footer}}
 </body>
 

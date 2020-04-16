@@ -17,7 +17,7 @@ const forecast = (latitude, longitude, callback) => {
             wind : body.currently.windSpeed,
             humidity : body.currently.humidity,
             rain : body.currently.precipProbability,
-            summary :body.hourly.summary 
+            summary :body.currently.summary 
            })
         }
     })

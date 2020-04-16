@@ -16,19 +16,39 @@
         <p>Use this site to get your weather!</p>
         <form>
             <input placeholder="location">
-            
+
             <button id='search'>Search</button> <br><br>
 
-            <h3><label id="location" visible = "false">Location : <label id = msg1> </label></label>
-            
-            <label id="temp" visible = "false">Temprature : <label id = msg2> </label></label>
-            <label id="humid" visible = "false">Humidity : <label id = msg3> </label></label>
-            <label id="wind" visible = "false">Wind Speed : <label id = msg6> </label></label>
-            <label id="rain" visible = "false">Rain : <label id = msg4> </label></label>
-            <label id="summury" visible = "false">Summury : <label id = msg5> </label></label> 
+            <h3>
+                <div class="row">
+                    <img id="imgloc" src="/img/location.png">
+                   <label id="location" visible="false">Location : <label id=msg1> </label></label>
+                </div>
+
+                <div class="row">
+                    <img id="imgtemp" src="/img/temprature.png">
+                    <label id="temp" visible="false">Temprature : <label id=msg2> </label></label>
+                </div>
+                <div class="row">
+                    <img id="imghumid" src="/img/humidity.png">
+                    <label id="humid" visible="false">Humidity : <label id=msg3> </label></label>
+                </div>
+                <div class="row">
+                    <img id="imgwind" src="/img/wind.png">
+                    <label id="wind" visible="false">Wind Speed : <label id=msg6> </label></label>
+                </div>
+                <div class="row">
+                    <img id="imgrain" src="/img/rain.png">
+                    <label id="rain" visible="false">Rain : <label id=msg4> </label></label>
+                </div>
+                <div class="row">
+                    <img id="imgsummury" src="/img/summuary.png">
+                    <label id="summury" visible="false">Summury : <label id=msg5> </label></label>
+                </div>
+
             </h3>
         </form>
-        
+
     </div>
 
     {{>footer}}

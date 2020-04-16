@@ -24,7 +24,7 @@ body {
 }
 
 footer {
-    color: blue;
+    color: black;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -65,9 +65,15 @@ button{
 
 .row {
     display: flex;
+    text-align: center;
   }
   
 .column {
     flex: 50%;
     padding: 10px;
   }
+  label {
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px; 
+ }

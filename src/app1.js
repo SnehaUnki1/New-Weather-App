@@ -78,7 +78,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Weather Application',
-        help: 'We aer here to help u',
+        help: 'We are here to help you',
         name:'Sneha Ravi'
     })
 })
